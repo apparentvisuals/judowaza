@@ -6,7 +6,7 @@ import { nextTick } from "vue";
 
 const routes = [
     {
-        path: '/',
+        path: '/judowaza',
         name: 'home',
         component: Home,
         meta: {
