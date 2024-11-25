@@ -1,3 +1,7 @@
 .VPDoc:not(.has-sidebar) .container, .VPDoc:not(.has-sidebar) .content, .VPDoc.has-aside .content-container {
     max-width: none !important;
 }
+
+html {
+    background-color: var(--vp-c-bg);
+}
