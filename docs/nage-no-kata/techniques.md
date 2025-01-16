@@ -12,6 +12,31 @@ sidebar: false
   <span class="text-sm text-gray-500 dark:text-gray-400 absolute end-0 -bottom-6">Advanced</span>
 </div>
 
+## General
+
+<div class="technique-layout">
+  <img src="https://placehold.co/600x400?text=Overall" />
+  <ul>
+      <li>Kuzushi - show understanding of the off-balancing for each technique</li>
+      <li>Kake - demonstration does not require full power but understanind of using the whole body in sync</li>
+      <li :class="level < 2 ? 'exclude' : ''">Point 3</li>
+      <li :class="level < 2 ? 'exclude' : ''">Point 4</li>
+      <li :class="level < 3 ? 'exclude' : ''">Point 5</li>
+      <li :class="level < 3 ? 'exclude' : ''">Point 6</li>
+  </ul>
+  <img src="https://placehold.co/600x400?text=Uke" />
+  <ul>
+      <li>Strikes should aim for top of forehead</li>
+      <li>Maintain straight body for all standing throws</li>
+      <li :Class="level < 2 ? 'exclude': ''">Body should make full contact at same time during breakfall</li>
+  </ul>
+  <img src="https://placehold.co/600x400?text=Tori" />
+  <ul>
+      <li>Wait for Uke to grip</li>
+      <li>Be at starting position for every technique first</li>
+  </ul>
+</div>
+
 ## Entrance
 
 <div class="technique-layout">
@@ -31,8 +56,8 @@ sidebar: false
 <div class="technique-layout">
   <img src="https://placehold.co/600x400?text=Uki-otoshi" />
   <ul>
-      <li>Point 1</li>
-      <li>Point 2</li>
+      <li>Show direction of kuzushi (back) on second step using slight pull</li>
+      <li>Throw to 45, hands go from shoulder to hip maitaining balance</li>
       <li :class="level < 2 ? 'exclude' : ''">Point 3</li>
       <li :class="level < 2 ? 'exclude' : ''">Point 4</li>
       <li :class="level < 3 ? 'exclude' : ''">Point 5</li>
@@ -144,6 +169,11 @@ sidebar: false
 </div>
 
 ## References
+
+* [IJF KATA - Criterias for evaluation Jan 2024](https://78884ca60822a34fb0e6-082b8fd5551e97bc65e327988b444396.ssl.cf3.rackcdn.com/up/2024/01/IJF_KATA_EVALUATION_Jan_2024-E-1706106369.pdf)
+* [Kodokan Kata - Nage-no-kata ENG](https://78884ca60822a34fb0e6-082b8fd5551e97bc65e327988b444396.ssl.cf3.rackcdn.com/up/2020/05/Nage_no_Kata_2nd_20150415-1589-1589187841.pdf)
+* [Kodokan Kata - Nage-no-kata FRA](https://78884ca60822a34fb0e6-082b8fd5551e97bc65e327988b444396.ssl.cf3.rackcdn.com/up/2020/07/Nage-no-kata_FRA-1596187174-1596187174.pdf)
+* [Kodokan Kata - Nage-no-kata YouTube](https://www.youtube.com/watch?v=6HpFXUKxcDw)
 
 <script setup>
 import { ref } from 'vue';

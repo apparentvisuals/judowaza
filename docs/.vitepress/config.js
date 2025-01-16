@@ -23,8 +23,17 @@ export default withPwa(defineConfig({
       { 
         text: 'Kata', 
         items: [
-          { text: 'Nage-no-kata', link: '/nage-no-kata/techniques' },
-          { text: 'Katame-no-kata', link: '/katame-no-kata/techniques' },
+          { text: 'Nage-no-kata', 
+            items: [
+              { text: 'Techniques', link: '/nage-no-kata/techniques' },
+            ],
+          },
+          { text: 'Katame-no-kata', 
+            items: [
+              { text: 'Techniques', link: '/katame-no-kata/techniques' },
+              { text: 'Judging', link: '/katame-no-kata/judging' },
+            ],
+          }
         ],
       },
       { text: 'About', link: '/about' }
